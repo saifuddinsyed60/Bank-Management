@@ -1,38 +1,50 @@
-# SE452-banking-management-system
+# 💳 Banking Application
 
-## Purpose
-The Bank Management System project aims to develop a comprehensive software solution to streamline banking operations, including account management, transaction tracking, customer relationship management, and administrative tasks. The system will feature user registration and authentication, account management functionalities for customers, transaction processing, loan management, reporting and analytics capabilities, robust security measures, customer support features, and administrative functionalities. The project will adhere to budget and timeline constraints, comply with regulatory requirements, and deliver key project deliverables, including fully developed and tested software, user manuals, and deployment plans. The project team consists of a project manager, business analyst, software developers, quality assurance/testers, system administrators, and subject matter experts. 
+A secure, full-stack banking application built with **Java Spring Boot** (backend) and **Angular** (frontend). This project simulates core banking operations such as user registration, login, account management, fund transfers, and transaction history.
 
+---
 
- Define the project and base structure and areas where each member will be working on based on [prototype](https://www.figma.com/file/wzsstl2J8hPWB0a0ZITiJL/SE452-Design?type=design&node-id=24-31&mode=design&t=AL9Ae16oZNT2UiUY-0) (designed with Figma)
+## 🚀 Features
 
+- 🔐 **User Authentication & Role-Based Access**  
+  Secure login system using JWT and Spring Security
 
- Live website : https://se452-banking-project.netlify.app/
-              (Username : admin, Password :admin123)
+- 💼 **Account Management**  
+  Create, update, and delete bank accounts
 
-## Project Members
+- 💸 **Fund Transfers**  
+  Transfer money between accounts with validation and transaction logging
 
-| Member | Specifics |
-|:-----|------:|
-| Vinod   |  Implemented Login and Signup functionality  |
-| Shlok   |  Implement Dashboard menus and user authentication |
-| Syed Saifuddin | Implement Withdraw and Deposit modules  |
-| Hari | Implemented Balance inquiry & transaction history|
-| Abdullah | Settings (Update profile details and Feedback page) |
+- 📜 **Transaction History**  
+  View detailed records of deposits, withdrawals, and transfers
 
-## Conflict Resolution
-We will put it to a vote since we are 5, it will never be a tie 
+- 📊 **Angular Frontend**  
+  Responsive and intuitive UI using Angular and Angular Material
 
-## Communication Mechanism
-  Microsoft Teams, We will meet every Tuesday from 12 pm-5 pm at Loop Library.
+---
 
+## 🛠️ Tech Stack
 
-## Design Made
+### Backend (Java Spring Boot)
+- Java 17+
+- Spring Boot
+- Spring Data JPA
+- Spring Security + JWT
+- H2 / PostgreSQL (configurable)
+- Maven
 
-|# | Area  |  Decision   | Rationale  |
-|:----|:-----|:--------:|------:|
-|1|IDE|IntelliJ| Wide-range support for Spring.| 
-|2|Dependency Management|Maven| Simple configuration and widespread adoption |
-|3|Front-end design|Angular| Easy to use compared to other alternatives such as ReactJS.| 
-|4|Back-end design|  Springboot|Comprehensive ecosystem and offers a wide range of support| 
-|5|Configuration Management|Properties| It offers a traditional and widely accepted configuration format, ensuring compatibility and ease of use across different platforms|.
+### Frontend (Angular)
+- Angular 15+
+- Angular Material
+- TypeScript
+- RxJS
+- SCSS
+
+---
+
+## 🧪 How to Run
+
+### Backend
+```bash
+cd backend/
+./mvnw spring-boot:run
