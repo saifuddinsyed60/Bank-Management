@@ -42,9 +42,4 @@ A secure, full-stack banking application built with **Java Spring Boot** (backen
 
 ---
 
-## 🧪 How to Run
 
-### Backend
-```bash
-cd backend/
-./mvnw spring-boot:run
